@@ -1,0 +1,25 @@
+# Before running this script run synth.sh
+# To run this script use
+# yosys -s synth.ys
+
+# Load GHDL
+plugin -i ghdl
+
+# Elaborate
+# ghdl --std=08 -e top_level_name
+# For example to see if the FFTCORE module will synthesize
+ghdl --std=08 --work=fft FFTCORE
+
+# Synthesize
+synth_ice40 -top FFTCORE
+opt
+techmap
+clean
+stat
+
+# Write gate-level netlist
+#write_verilog -noattr synth_top_module.v
+write_verilog -noattr synth_FFTCORE.v
+
+# Leave
+exit

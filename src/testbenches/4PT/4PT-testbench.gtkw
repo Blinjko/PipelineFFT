@@ -1,0 +1,78 @@
+[*]
+[*] GTKWave Analyzer v3.3.124 (w)1999-2025 BSI
+[*] Mon Aug 18 17:51:42 2025
+[*]
+[dumpfile] "/mnt/NAS/Documents/VHDL/FFT/src/testbenches/4PT/wave.ghw"
+[dumpfile_mtime] "Sun Mar  4 03:38:12 2012"
+[dumpfile_size] 36668
+[savefile] "/mnt/NAS/Documents/VHDL/FFT/src/testbenches/4PT/4PT-testbench.gtkw"
+[timestart] 4110000000
+[size] 1324 1442
+[pos] -1 -1
+*-26.700001 4216200000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] top.
+[treeopen] top.testbench.
+[treeopen] top.testbench.eight_pt.
+[sst_width] 209
+[signals_width] 214
+[sst_expanded] 1
+[sst_vpaned_height] 450
+@28
+top.testbench.clk
+top.testbench.rst
+@200
+-
+@28
+top.testbench.we
+top.testbench.eight_current_in
+@200
+-
+@28
+top.testbench.out_we
+top.testbench.eight_current_out
+@22
+#{top.testbench.eight_pt.sample_out[15:0]} top.testbench.eight_pt.sample_out[15] top.testbench.eight_pt.sample_out[14] top.testbench.eight_pt.sample_out[13] top.testbench.eight_pt.sample_out[12] top.testbench.eight_pt.sample_out[11] top.testbench.eight_pt.sample_out[10] top.testbench.eight_pt.sample_out[9] top.testbench.eight_pt.sample_out[8] top.testbench.eight_pt.sample_out[7] top.testbench.eight_pt.sample_out[6] top.testbench.eight_pt.sample_out[5] top.testbench.eight_pt.sample_out[4] top.testbench.eight_pt.sample_out[3] top.testbench.eight_pt.sample_out[2] top.testbench.eight_pt.sample_out[1] top.testbench.eight_pt.sample_out[0]
+@800024
+#{top.testbench.four_pt.waddr[7:0]} top.testbench.four_pt.waddr[7] top.testbench.four_pt.waddr[6] top.testbench.four_pt.waddr[5] top.testbench.four_pt.waddr[4] top.testbench.four_pt.waddr[3] top.testbench.four_pt.waddr[2] top.testbench.four_pt.waddr[1] top.testbench.four_pt.waddr[0]
+@1001204
+-group_end
+@200
+-
+@24
+top.testbench.four_out_we
+@28
+top.testbench.four_current_out
+@200
+-
+@420
+top.testbench.four_pt.ps
+top.testbench.four_pt.ns
+@200
+-
+@24
+#{top.testbench.four_pt.writable_spots[2:0]} top.testbench.four_pt.writable_spots[2] top.testbench.four_pt.writable_spots[1] top.testbench.four_pt.writable_spots[0]
+#{top.testbench.four_pt.computations_avail[2:0]} top.testbench.four_pt.computations_avail[2] top.testbench.four_pt.computations_avail[1] top.testbench.four_pt.computations_avail[0]
+@200
+-
+@22
+#{top.testbench.four_pt.raddr[7:0]} top.testbench.four_pt.raddr[7] top.testbench.four_pt.raddr[6] top.testbench.four_pt.raddr[5] top.testbench.four_pt.raddr[4] top.testbench.four_pt.raddr[3] top.testbench.four_pt.raddr[2] top.testbench.four_pt.raddr[1] top.testbench.four_pt.raddr[0]
+#{top.testbench.four_pt.taddr[7:0]} top.testbench.four_pt.taddr[7] top.testbench.four_pt.taddr[6] top.testbench.four_pt.taddr[5] top.testbench.four_pt.taddr[4] top.testbench.four_pt.taddr[3] top.testbench.four_pt.taddr[2] top.testbench.four_pt.taddr[1] top.testbench.four_pt.taddr[0]
+#{top.testbench.four_pt.ram_addr[7:0]} top.testbench.four_pt.ram_addr[7] top.testbench.four_pt.ram_addr[6] top.testbench.four_pt.ram_addr[5] top.testbench.four_pt.ram_addr[4] top.testbench.four_pt.ram_addr[3] top.testbench.four_pt.ram_addr[2] top.testbench.four_pt.ram_addr[1] top.testbench.four_pt.ram_addr[0]
+#{top.testbench.four_pt.rdata[15:0]} top.testbench.four_pt.rdata[15] top.testbench.four_pt.rdata[14] top.testbench.four_pt.rdata[13] top.testbench.four_pt.rdata[12] top.testbench.four_pt.rdata[11] top.testbench.four_pt.rdata[10] top.testbench.four_pt.rdata[9] top.testbench.four_pt.rdata[8] top.testbench.four_pt.rdata[7] top.testbench.four_pt.rdata[6] top.testbench.four_pt.rdata[5] top.testbench.four_pt.rdata[4] top.testbench.four_pt.rdata[3] top.testbench.four_pt.rdata[2] top.testbench.four_pt.rdata[1] top.testbench.four_pt.rdata[0]
+@200
+-
+@22
+#{top.testbench.four_pt.even.re[3:-12]} top.testbench.four_pt.even.re[3] top.testbench.four_pt.even.re[2] top.testbench.four_pt.even.re[1] top.testbench.four_pt.even.re[0] top.testbench.four_pt.even.re[-1] top.testbench.four_pt.even.re[-2] top.testbench.four_pt.even.re[-3] top.testbench.four_pt.even.re[-4] top.testbench.four_pt.even.re[-5] top.testbench.four_pt.even.re[-6] top.testbench.four_pt.even.re[-7] top.testbench.four_pt.even.re[-8] top.testbench.four_pt.even.re[-9] top.testbench.four_pt.even.re[-10] top.testbench.four_pt.even.re[-11] top.testbench.four_pt.even.re[-12]
+#{top.testbench.four_pt.even.im[3:-12]} top.testbench.four_pt.even.im[3] top.testbench.four_pt.even.im[2] top.testbench.four_pt.even.im[1] top.testbench.four_pt.even.im[0] top.testbench.four_pt.even.im[-1] top.testbench.four_pt.even.im[-2] top.testbench.four_pt.even.im[-3] top.testbench.four_pt.even.im[-4] top.testbench.four_pt.even.im[-5] top.testbench.four_pt.even.im[-6] top.testbench.four_pt.even.im[-7] top.testbench.four_pt.even.im[-8] top.testbench.four_pt.even.im[-9] top.testbench.four_pt.even.im[-10] top.testbench.four_pt.even.im[-11] top.testbench.four_pt.even.im[-12]
+@200
+-
+@22
+#{top.testbench.four_pt.odd.re[3:-12]} top.testbench.four_pt.odd.re[3] top.testbench.four_pt.odd.re[2] top.testbench.four_pt.odd.re[1] top.testbench.four_pt.odd.re[0] top.testbench.four_pt.odd.re[-1] top.testbench.four_pt.odd.re[-2] top.testbench.four_pt.odd.re[-3] top.testbench.four_pt.odd.re[-4] top.testbench.four_pt.odd.re[-5] top.testbench.four_pt.odd.re[-6] top.testbench.four_pt.odd.re[-7] top.testbench.four_pt.odd.re[-8] top.testbench.four_pt.odd.re[-9] top.testbench.four_pt.odd.re[-10] top.testbench.four_pt.odd.re[-11] top.testbench.four_pt.odd.re[-12]
+#{top.testbench.four_pt.odd.im[3:-12]} top.testbench.four_pt.odd.im[3] top.testbench.four_pt.odd.im[2] top.testbench.four_pt.odd.im[1] top.testbench.four_pt.odd.im[0] top.testbench.four_pt.odd.im[-1] top.testbench.four_pt.odd.im[-2] top.testbench.four_pt.odd.im[-3] top.testbench.four_pt.odd.im[-4] top.testbench.four_pt.odd.im[-5] top.testbench.four_pt.odd.im[-6] top.testbench.four_pt.odd.im[-7] top.testbench.four_pt.odd.im[-8] top.testbench.four_pt.odd.im[-9] top.testbench.four_pt.odd.im[-10] top.testbench.four_pt.odd.im[-11] top.testbench.four_pt.odd.im[-12]
+@200
+-
+@22
+#{top.testbench.four_pt.twiddle.re[3:-12]} top.testbench.four_pt.twiddle.re[3] top.testbench.four_pt.twiddle.re[2] top.testbench.four_pt.twiddle.re[1] top.testbench.four_pt.twiddle.re[0] top.testbench.four_pt.twiddle.re[-1] top.testbench.four_pt.twiddle.re[-2] top.testbench.four_pt.twiddle.re[-3] top.testbench.four_pt.twiddle.re[-4] top.testbench.four_pt.twiddle.re[-5] top.testbench.four_pt.twiddle.re[-6] top.testbench.four_pt.twiddle.re[-7] top.testbench.four_pt.twiddle.re[-8] top.testbench.four_pt.twiddle.re[-9] top.testbench.four_pt.twiddle.re[-10] top.testbench.four_pt.twiddle.re[-11] top.testbench.four_pt.twiddle.re[-12]
+#{top.testbench.four_pt.twiddle.im[3:-12]} top.testbench.four_pt.twiddle.im[3] top.testbench.four_pt.twiddle.im[2] top.testbench.four_pt.twiddle.im[1] top.testbench.four_pt.twiddle.im[0] top.testbench.four_pt.twiddle.im[-1] top.testbench.four_pt.twiddle.im[-2] top.testbench.four_pt.twiddle.im[-3] top.testbench.four_pt.twiddle.im[-4] top.testbench.four_pt.twiddle.im[-5] top.testbench.four_pt.twiddle.im[-6] top.testbench.four_pt.twiddle.im[-7] top.testbench.four_pt.twiddle.im[-8] top.testbench.four_pt.twiddle.im[-9] top.testbench.four_pt.twiddle.im[-10] top.testbench.four_pt.twiddle.im[-11] top.testbench.four_pt.twiddle.im[-12]
+[pattern_trace] 1
+[pattern_trace] 0
